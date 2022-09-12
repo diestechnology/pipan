@@ -1,4 +1,8 @@
 <footer class="Footer" role="contentinfo" data-controller="FooterBreakpoints">
+<div class="row">
+<div class="col text-left">hello</div>
+<div class="col text-right">hellop</div>
+</div>
 
   <div class="Footer-inner clear">
 
