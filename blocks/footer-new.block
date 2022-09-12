@@ -3,5 +3,10 @@
 	<div class="col sqs-col-6 span-6">Licence No: 36137130</div>
 	<div class="col sqs-col-6 span-6">Copyright@2016 Pipan Stell Wines</div>
 </div>
-
+<style>
+footer.Footer.sqs-block-content {
+    margin: 0 auto;
+    text-align: center;
+}
+</style>
 </footer>
