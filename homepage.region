@@ -164,7 +164,7 @@
         </div>
       </div>
 
-      {@|apply footer.block}
+      {@|apply footer-new.block}
 
     </div>
 
