@@ -13,5 +13,8 @@ footer.Footer.sqs-block-content {
     margin: 0 auto;
     text-align: center;
 }
+div#block-yui_3_17_2_1_1662979238490_4679 {
+    padding-bottom: 0px;
+}
 </style>
 </footer>
