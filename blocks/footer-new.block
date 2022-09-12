@@ -8,5 +8,10 @@ footer.Footer.sqs-block-content {
     margin: 0 auto;
     text-align: center;
 }
+.tweak-footer-show .Footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 </style>
 </footer>
