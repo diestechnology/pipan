@@ -156,7 +156,7 @@
             {.equal? collection.typeName "index"}
               {squarespace.main-content}
             {.or}
-              <section class="Main-content" data-content-field="main-content">
+              <section class="Main-content p0" data-content-field="main-content">
                 {squarespace.main-content}
               </section>
             {.end}
