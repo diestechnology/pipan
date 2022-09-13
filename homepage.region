@@ -23,6 +23,10 @@
   max-width:100%;
     pointer-events: none;
   }
+  .hiddenclassmax{
+  max-width:75vh;
+  overflow:hidden;
+  }
 </style>
   </head>
   
@@ -153,9 +157,11 @@
             </div>
           </div>
         </header>
+		<div class="hiddenclassmax">
 		<video autoplay="true" loop="true" muted="true" control="false">
 		  <source src="https://video.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/61078515-5d93-4bb5-86bc-96ef5974c12d/mp4-h264-1920:1080" type="video/mp4" />
 		</video>
+		</div>
 
         <div class="Content-outer">
           {.if collection}{.if item}{.or}{.equal? collection.typeName "index"}{.or}
