@@ -154,7 +154,6 @@
 
 
 {.section collection}
-  ...
   <squarespace:category collection="{urlId}">
     {.if categories}
       <div class="category-wrapper">
@@ -162,7 +161,6 @@
       </div>
     {.end}
   </squarespace:category>
-  ...
 {.end}
 
 
