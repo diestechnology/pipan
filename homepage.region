@@ -152,14 +152,18 @@
           {.end}{.end}{.end}
 
 
-<squarespace:category collection="2016" template="category-slugs" />
 
-  <ol>
-    {.repeated section items}
-      <li><a href="{fullUrl}">{title}</a></li>
+{.section collection}
+  ...
+  <squarespace:category collection="{urlId}">
+    {.if categories}
+      <div class="category-wrapper">
+        <span class="category">{.repeated section categories}{name}{.alternates with}, {.end}</span>
+      </div>
     {.end}
-  </ol>
-</squarespace:query>
+  </squarespace:category>
+  ...
+{.end}
 
 
 
