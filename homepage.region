@@ -24,8 +24,8 @@
     pointer-events: none;
   }
   .hiddenclassmax{
-  max-width:75vh;
-  overflow:hidden;
+	max-height: 85vh;
+    overflow: hidden;
   }
 </style>
   </head>
