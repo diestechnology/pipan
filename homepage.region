@@ -29,7 +29,7 @@
   }
   h1.video_title {
     position: absolute;
-    top: 45vh;
+    top: 42vh;
     z-index: 10;
     color: #fffefa;
     left: 0;
