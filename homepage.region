@@ -46,6 +46,18 @@
     background: #1d1d1d5e;
     position: absolute;
 }
+img.video-icon {
+    position: absolute;
+    top: 76vh;
+    z-index: 10;
+    color: #fffefa;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: proxima-nova;
+    font-size: 36px;
+}
 </style>
   </head>
   
