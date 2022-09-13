@@ -16,6 +16,9 @@
   ul.demotab li{
   cursor:pointer;
   }
+  ul.demotab li.active{
+     color:#7d704a;
+  }
 </style>
   </head>
   
@@ -203,7 +206,10 @@
   <script>
    $('div#block-yui_3_17_2_1_1663072836916_4086').hide();
    $('div#block-yui_3_17_2_1_1663072836916_15280').hide();	
+  
    $(".demotab li").click(function(){
+		$('.demotab').removeClass("active");
+		$(this).addClass("active");
 		let active = $(this).data('id');
 		$('div#block-yui_3_17_2_1_1662978460680_2946').hide();
 		$('div#block-yui_3_17_2_1_1663072836916_4086').hide();
