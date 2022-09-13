@@ -193,6 +193,10 @@
     <squarespace:script src="site-bundle.js" combo="false" />
 
     {squarespace-footers}
-
+  <script>
+  $(".tabing_set li").click(function(){
+     alert("HELLO");
+  });
+  </script>
   </body>
 </html>
