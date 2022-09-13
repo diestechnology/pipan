@@ -13,6 +13,9 @@
     display:inline-block;
     margin:0px 15px;
   }
+  ul.demotab li{
+  cursor:pointer;
+  }
 </style>
   </head>
   
