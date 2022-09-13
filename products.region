@@ -196,17 +196,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
   $(".tabing_set li").click(function(){
-    let active =  $(this).data('id');
+    let active = $(this).data('id');
 	$('div#block-yui_3_17_2_1_1663042901462_3126').hide();
 	$('div#block-yui_3_17_2_1_1663042901462_6898').hide();
 	$('div#block-yui_3_17_2_1_1663042901462_10191').hide();	
 	if(active == 1){
 	   $('div#block-yui_3_17_2_1_1663042901462_3126').show();
 	}
-	if(active == 2){
+	elseif(active == 2){
 	   $('div#block-yui_3_17_2_1_1663042901462_6898').show();
 	}
-	if(active == 3){
+	elseif(active == 3){
 	   $('div#block-yui_3_17_2_1_1663042901462_10191').show();
 	}
   });
