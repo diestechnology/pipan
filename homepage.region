@@ -19,6 +19,9 @@
   ul.demotab li.active{
      color:#7d704a;
   }
+  video{
+  max-width:100%;
+  }
 </style>
   </head>
   
