@@ -24,7 +24,7 @@
     pointer-events: none;
   }
   .hiddenclassmax{
-	max-height: 85vh;
+	max-height: 86vh;
     overflow: hidden;
   }
   h1.video_title {
