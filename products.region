@@ -5,8 +5,14 @@
     <meta name="viewport" content="initial-scale=1">
     {squarespace-headers}
 	<style>
-	.tabing_set li{
-	     
+	ul.tabing_set {
+		display: inline-flex;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+	ul.tabing_set {
+	margin-right:15px;
 	}
 	</style>
   </head>
