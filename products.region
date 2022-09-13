@@ -203,10 +203,10 @@
 	if(active == 1){
 	   $('div#block-yui_3_17_2_1_1663042901462_3126').show();
 	}
-	elseif(active == 2){
+	else if(active == 2){
 	   $('div#block-yui_3_17_2_1_1663042901462_6898').show();
 	}
-	elseif(active == 3){
+	else if(active == 3){
 	   $('div#block-yui_3_17_2_1_1663042901462_10191').show();
 	}
   });
