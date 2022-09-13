@@ -198,7 +198,7 @@
   <script>
    $('div#block-yui_3_17_2_1_1663072836916_4086').hide();
    $('div#block-yui_3_17_2_1_1663072836916_15280').hide();	
-   $(".tabing_set li").click(function(){
+   $(".demotab li").click(function(){
 		let active = $(this).data('id');
 		$('div#block-yui_3_17_2_1_1662978460680_2946').hide();
 		$('div#block-yui_3_17_2_1_1663072836916_4086').hide();
