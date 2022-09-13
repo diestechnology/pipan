@@ -11,7 +11,7 @@
 		padding: 0px;
 		list-style: none;
 	}
-	ul.tabing_set {
+	ul.tabing_set li {
 	margin-right:15px;
 	}
 	</style>
