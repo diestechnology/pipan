@@ -208,7 +208,7 @@
    $('div#block-yui_3_17_2_1_1663072836916_15280').hide();	
   
    $(".demotab li").click(function(){
-		$('.demotab').removeClass("active");
+		$('.demotab li').removeClass("active");
 		$(this).addClass("active");
 		let active = $(this).data('id');
 		$('div#block-yui_3_17_2_1_1662978460680_2946').hide();
