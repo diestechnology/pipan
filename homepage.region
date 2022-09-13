@@ -152,8 +152,8 @@
           {.end}{.end}{.end}
 
 
+<squarespace:category collection="2016" template="category-slugs" />
 
-<squarespace:query collection="5760c2d9859fd0c16b3bb7a5" tag="IX" limit="4">
   <ol>
     {.repeated section items}
       <li><a href="{fullUrl}">{title}</a></li>
