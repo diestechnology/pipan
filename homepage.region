@@ -8,6 +8,7 @@
 	<style>
   .demotab{
     padding:0px;text-align:center;
+	    margin: 0;
   }
   .demotab li{
     display:inline-block;
@@ -59,6 +60,7 @@ img.video-icon {
     font-family: proxima-nova;
     font-size: 36px;
 }
+
 </style>
   </head>
   
