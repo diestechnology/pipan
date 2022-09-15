@@ -68,6 +68,9 @@ img.video-icon {
     padding-left: 0;
     padding-right: 0;
 }
+.Header-branding-logo {
+    max-width: 100px;
+}
 
 </style>
   </head>
