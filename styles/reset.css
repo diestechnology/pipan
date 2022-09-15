@@ -457,3 +457,8 @@ h1.ProductItem-details-title {
 	    font-size: 22px ;
 		color:#ae9962;
 }
+.product-price {
+    color: #ae9962 !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
