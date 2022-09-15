@@ -440,12 +440,12 @@ h1.ProductItem-details-title {
     margin: 0 !important;
     margin-bottom: 25px !important;
 }
-div#yui_3_17_2_1_1663245800758_120 {
-    padding: 15px;
-    background: #ae9962;
-    border: none;
-    width: 100%;
-    color: white;
+.ProductItem-details .sqs-add-to-cart-button {
+    padding: 15px !important;
+    background: #ae9962 !important;
+    border: none !important;
+    width: 100% !important;
+    color: white !important;
 }
 
 .variant-select-wrapper, input[type="number"] {
