@@ -63,6 +63,11 @@ img.video-icon {
 .summary-item-list-container.sqs-gallery-container{
     max-width: 1200px !important;
 }
+.Header-inner.Header-inner--top {
+    max-width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 </style>
   </head>
