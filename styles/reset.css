@@ -462,3 +462,9 @@ h1.ProductItem-details-title {
     font-size: 22px !important;
     font-weight: bold !important;
 }
+.product-quantity-input {
+    position: absolute;
+    z-index: 11;
+    bottom: 115px;
+    left: 200px;
+}
