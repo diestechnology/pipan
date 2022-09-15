@@ -447,3 +447,12 @@ div#yui_3_17_2_1_1663245562928_120 {
     width: 100%;
     color: white;
 }
+.variant-select-wrapper {
+    padding: 15px !important;
+    background: #4B4B4A !important;
+    border-color: #4b4b4b !important;
+}
+.ProductItem-details .variant-select-wrapper:after{
+	    font-size: 22px;
+		color:#ae9962;
+}
