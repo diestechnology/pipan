@@ -436,3 +436,7 @@ h1.ProductItem-details-title {
 .tweak-product-item-details-alignment-center .ProductItem-details {
     text-align: left !important;
 }
+.sqs-add-to-cart-button-wrapper {
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+}
