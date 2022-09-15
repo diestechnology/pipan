@@ -77,6 +77,9 @@ img.video-icon {
 h1.ProductItem-details-title {
     font-weight: bold !important;
 }
+.tweak-product-item-details-alignment-center .ProductItem-details {
+    text-align: left !important;
+}
 
 
 </style>
