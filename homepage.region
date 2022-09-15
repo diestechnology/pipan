@@ -60,6 +60,9 @@ img.video-icon {
     font-family: proxima-nova;
     font-size: 36px;
 }
+.summary-item-list-container.sqs-gallery-container{
+    max-width: 1200px;
+}
 
 </style>
   </head>
