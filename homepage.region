@@ -71,6 +71,12 @@ img.video-icon {
 .Header-branding-logo {
     max-width: 100px;
 }
+.tweak-product-item-details-alignment-center .ProductItem-details {
+    text-align: left;
+}
+h1.ProductItem-details-title {
+    font-weight: bold !important;
+}
 
 </style>
   </head>
