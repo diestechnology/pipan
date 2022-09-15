@@ -445,7 +445,7 @@ h1.ProductItem-details-title {
     background: #ae9962 !important;
     border: none !important;
     width: 100% !important;
-    color: white !important;
+    color: white;
 }
 
 .variant-select-wrapper, input[type="number"] {
