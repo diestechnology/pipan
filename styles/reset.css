@@ -440,13 +440,14 @@ h1.ProductItem-details-title {
     margin: 0 !important;
     margin-bottom: 25px !important;
 }
-div#yui_3_17_2_1_1663245562928_120 {
+div#yui_3_17_2_1_1663245800758_120 {
     padding: 15px;
     background: #ae9962;
     border: none;
     width: 100%;
     color: white;
 }
+
 .variant-select-wrapper, input[type="number"] {
     padding: 15px !important;
     background: #4B4B4A !important;
