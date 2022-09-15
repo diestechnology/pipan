@@ -425,3 +425,14 @@ td,
 th {
   padding: 0;
 }
+
+
+.tweak-product-item-details-alignment-center .ProductItem-details {
+    text-align: left;
+}
+h1.ProductItem-details-title {
+    font-weight: bold !important;
+}
+.tweak-product-item-details-alignment-center .ProductItem-details {
+    text-align: left !important;
+}
