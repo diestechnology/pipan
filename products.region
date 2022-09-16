@@ -192,7 +192,7 @@
     {squarespace-footers}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
- 
+  /*
    $('div#block-yui_3_17_2_1_1663042901462_6898').hide();
    $('div#block-yui_3_17_2_1_1663042901462_10191').hide();	
    $(".tabing_set li").click(function(){
@@ -209,7 +209,7 @@
 		else if(active == 3){
 			$('div#block-yui_3_17_2_1_1663042901462_10191').css('display','block');
 		}
-  });
+  });*/
   </script>
   </body>
 </html>
