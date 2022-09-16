@@ -72,6 +72,12 @@ img.video-icon {
 .Header-branding-logo {
     max-width: 100px;
 }
+.Main-content{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5760a7d…/8af550af-29dd-421e-9b59-c4cb9edfae15/mainbgbanner.png?format=1500w);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 
 
