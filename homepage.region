@@ -23,6 +23,7 @@
   video{
   max-width:100%;
     pointer-events: none;
+	    width: 100%;
   }
   .hiddenclassmax{
 	max-height: 86vh;
