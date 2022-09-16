@@ -201,6 +201,8 @@
 		$('div#block-yui_3_17_2_1_1663042901462_10191').hide();	
 		if(active == 1){
 			$('div#block-yui_3_17_2_1_1663042901462_3126').show();
+			$('div#block-yui_3_17_2_1_1663042901462_6898').show();
+			$('div#block-yui_3_17_2_1_1663042901462_10191').show();	
 		}
 		else if(active == 2){
 			$('div#block-yui_3_17_2_1_1663042901462_6898').css('display','block');
