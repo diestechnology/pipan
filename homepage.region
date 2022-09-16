@@ -261,7 +261,7 @@ img.video-icon {
         </div>
       </div>
 
-      <!--{@|apply footer-new.block}-->
+      {@|apply footer-new.block}
 
     </div>
 
