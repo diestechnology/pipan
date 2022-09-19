@@ -63,7 +63,7 @@ img.video-icon {
     font-size: 36px;
 }
 .summary-item-list-container.sqs-gallery-container{
-    max-width: 1200px !important;
+    /*max-width: 1200px !important;*/
 }
 .Header-inner.Header-inner--top {
     max-width: 95%;
