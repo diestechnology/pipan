@@ -246,7 +246,7 @@ div#London{
 position:relative;
 }
 .main_box_pipan{
-padding:0px;
+margin:0px;
 }
 		</style>
 		<!-- Tab content -->
