@@ -245,7 +245,7 @@ img.video-icon {
 .tabcontent:before{
 content:"";
 height:300px;
-width:3300px;
+width:300px;
 background-color:red;
 }
 		</style>
