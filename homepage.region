@@ -245,7 +245,9 @@ img.video-icon {
 div#London{
 position:relative;
 }
-
+.main_box_pipan{
+padding:0px;
+}
 		</style>
 		<!-- Tab content -->
 <div class="main_box_pipan">
