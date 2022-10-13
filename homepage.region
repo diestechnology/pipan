@@ -231,8 +231,6 @@ img.video-icon {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }
 .main_box_pipan1 {
     width: 23%;
