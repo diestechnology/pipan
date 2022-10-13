@@ -235,7 +235,7 @@ img.video-icon {
   background-color: #ccc;
 }
 
-/* Style the tab content */
+/* Style the tab content */	
 .tabcontent {
   display: none;
   padding: 6px 12px;
