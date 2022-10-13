@@ -252,7 +252,7 @@ img.video-icon {
 		<!-- Tab content -->
 <div class="main_box_pipan">
 	<div id="London" class="tabcontent" style="display: block;">
-	  <h3>London</h3>
+		<img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662067772282-3KHJKP1WC4YZ661SGTAW/17_IX_front.png?format=300w">
 	  <p>London is the capital city of England.</p>
 	</div>
 
