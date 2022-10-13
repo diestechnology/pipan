@@ -245,6 +245,7 @@ img.video-icon {
 div#London{
 position:relative;
 }
+<!--
 .tabcontent:before{
 content:"";
 height:300px;
@@ -253,7 +254,8 @@ background-color:red;
 display: inline-block;
     position: absolute;
     bottom: 0;
-}
+	    z-index: 2;
+} -->
 		</style>
 		<!-- Tab content -->
 <div class="main_box_pipan">
