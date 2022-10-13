@@ -232,15 +232,18 @@ img.video-icon {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+    color: #AE9962;
+    border: 0px;
 }
-
 /* Style the tab content */	
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+.main_box_pipan {
+    width: 23%;
 }
 		</style>
 		<!-- Tab content -->
@@ -260,10 +263,10 @@ img.video-icon {
 	  <p>Tokyo is the capital of Japan.</p>
 	</div>
 			
-			<div class="tab">
-	  <button class="tablinks active" onclick="openCity(event, 'London')">London</button>
-	  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-	  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+	<div class="tab">
+	  <button class="tablinks active" onclick="openCity(event, 'London')">2017</button>
+	  <button class="tablinks" onclick="openCity(event, 'Paris')">2016</button>
+	  <button class="tablinks" onclick="openCity(event, 'Tokyo')">2015</button>
 	</div>
 </div>
 
