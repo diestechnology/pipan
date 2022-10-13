@@ -271,6 +271,12 @@ text-align: center;
     width: 50%;
 }
 }
+@media only screen 
+  and (min-device-width: 1024px) {
+.main_box_pipan1 {
+    width: 100%;
+}
+}
 		</style>
 		<!-- Tab content -->
 <div class="main_box_pipan">
