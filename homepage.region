@@ -239,6 +239,9 @@ img.video-icon {
 .main_box_pipan {
     background-color: #1C1C1C;
 }
+.tab {
+    text-align: center;
+}
 .tabcontent:before{
 content:"";
 height:300px;
