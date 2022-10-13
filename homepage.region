@@ -259,9 +259,16 @@ text-align: center;
 }
 @media only screen 
   and (min-device-width: 0px) 
-  and (max-device-width: 667px){
+  and (max-device-width: 768px){
 .main_box_pipan1 {
     width: 100%;
+}
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+.main_box_pipan1 {
+    width: 50%;
 }
 }
 		</style>
