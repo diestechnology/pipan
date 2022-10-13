@@ -245,8 +245,15 @@ img.video-icon {
 div#London{
 position:relative;
 }
-.main_box_pipan{
+.main_box_pipan p{
 margin:0px;
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 		</style>
 		<!-- Tab content -->
