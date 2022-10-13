@@ -250,6 +250,9 @@ content:"";
 height:300px;
 width:300px;
 background-color:red;
+display: inline-block;
+    position: absolute;
+    bottom: 0;
 }
 		</style>
 		<!-- Tab content -->
