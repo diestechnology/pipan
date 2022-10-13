@@ -242,6 +242,9 @@ img.video-icon {
 .tab {
     text-align: center;
 }
+div#London{
+position:absolute;
+}
 .tabcontent:before{
 content:"";
 height:300px;
