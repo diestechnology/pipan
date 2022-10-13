@@ -219,17 +219,6 @@ img.video-icon {
 		</div>
 		
 		<style>
-		/* Style the tab */
-.tab {
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons that are used to open the tab content */
-
-
-
-
 /* Create an active/current tablink class */
 .tab button.active {
     color: #AE9962;
@@ -245,34 +234,35 @@ img.video-icon {
   border: 1px solid #ccc;
   border-top: none;
 }
-.main_box_pipan {
+.main_box_pipan1 {
     width: 23%;
 }
 		</style>
 		<!-- Tab content -->
 <div class="main_box_pipan">
-	<div id="London" class="tabcontent" style="display: block;">
-		<img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662067772282-3KHJKP1WC4YZ661SGTAW/17_IX_front.png?format=300w">
-	  <p>London is the capital city of England.</p>
-	</div>
+	<div class="main_box_pipan1">
+		<div id="London" class="tabcontent" style="display: block;">
+			<img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662067772282-3KHJKP1WC4YZ661SGTAW/17_IX_front.png?format=300w">
+		  <p>London is the capital city of England.</p>
+		</div>
 
-	<div id="Paris" class="tabcontent">
-	  <h3>Paris</h3>
-	  <p>Paris is the capital of France.</p>
-	</div>
+		<div id="Paris" class="tabcontent">
+		  <h3>Paris</h3>
+		  <p>Paris is the capital of France.</p>
+		</div>
 
-	<div id="Tokyo" class="tabcontent">
-	  <h3>Tokyo</h3>
-	  <p>Tokyo is the capital of Japan.</p>
-	</div>
-			
-	<div class="tab">
-	  <button class="tablinks active" onclick="openCity(event, 'London')">2017</button>
-	  <button class="tablinks" onclick="openCity(event, 'Paris')">2016</button>
-	  <button class="tablinks" onclick="openCity(event, 'Tokyo')">2015</button>
+		<div id="Tokyo" class="tabcontent">
+		  <h3>Tokyo</h3>
+		  <p>Tokyo is the capital of Japan.</p>
+		</div>
+				
+		<div class="tab">
+		  <button class="tablinks active" onclick="openCity(event, 'London')">2017</button>
+		  <button class="tablinks" onclick="openCity(event, 'Paris')">2016</button>
+		  <button class="tablinks" onclick="openCity(event, 'Tokyo')">2015</button>
+		</div>
 	</div>
 </div>
-
 
 
 
