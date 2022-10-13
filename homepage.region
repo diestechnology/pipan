@@ -235,6 +235,9 @@ img.video-icon {
     color: #AE9962;
     border: 0px;
 }
+.tab button{
+ border: 0px;
+}
 /* Style the tab content */	
 .tabcontent {
   display: none;
