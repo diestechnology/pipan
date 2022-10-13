@@ -245,7 +245,7 @@ img.video-icon {
 		</style>
 		<!-- Tab content -->
 <div class="main_box_pipan">
-	<div id="London" class="tabcontent">
+	<div id="London" class="tabcontent" style="display: block;">
 	  <h3>London</h3>
 	  <p>London is the capital city of England.</p>
 	</div>
