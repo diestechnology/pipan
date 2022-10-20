@@ -411,12 +411,10 @@ function openCity(evt, cityName) {
   
 <script>
 $(document).ready(function() {
-	$("button").click(function() {
 		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
-	});
 });
 </script>
   </body>
