@@ -279,10 +279,21 @@ text-align: center;
 }
 }
 		</style>
-curl --location --request GET 'https://api.squarespace.com/1.0/commerce/products' \
---header 'Authorization: Bearer 1c57e459-ef40-4b00-b138-80a69c8fe998' \
---header 'User-Agent: YOUR_CUSTOM_APP_DESCRIPTION'
-{Products}
+		<script>
+		var settings = {
+  "url": "https://api.squarespace.com/1.0/commerce/products?tag=tesoro",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Authorization": "Bearer 1c57e459-ef40-4b00-b138-80a69c8fe998",
+    "User-Agent": "YOUR_CUSTOM_APP_DESCRIPTION"
+  },
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+</script>
 		<!-- Tab content -->
 <div class="main_box_pipan">
 	<div class="main_box_pipan1">
