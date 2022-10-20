@@ -280,31 +280,9 @@ text-align: center;
 }
 		</style>
 		<!-- Tab content -->
-<div class="main_box_pipan">
-	<div class="main_box_pipan1">
-		<div id="London" class="tabcontent" style="display: block;">
-			<img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662067772282-3KHJKP1WC4YZ661SGTAW/17_IX_front.png?format=300w">
-		  <p>Pipan Steel ‘tesoro’</p>
-		</div>
-
-		<div id="Paris" class="tabcontent">
-		  <img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662068541744-37JISED29BW0HRDYTSDR/17_X_front.png?format=300w">
-		  <p>Pipan Steel ‘tesoro1’</p>
-		</div>
-
-		<div id="Tokyo" class="tabcontent">
-		  <img src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/1662068606902-1V1OYYFL1PLJG5LQG01V/17_tesoro_front.png?format=300w">
-		  <p>Pipan Steel ‘tesoro2’</p>
-		</div>
-				
-		<div class="tab">
-		  <button class="tablinks active" onclick="openCity(event, 'London')">2017</button>
-		  <button class="tablinks" onclick="openCity(event, 'Paris')">2016</button>
-		  <button class="tablinks" onclick="openCity(event, 'Tokyo')">2015</button>
-		</div>
-	</div>
-	
-</div>
+		
+		<div class="tabingdata"></div>
+		
 
 
 
@@ -379,7 +357,7 @@ function openCity(evt, cityName) {
       {@|apply footer-new.block}
 
     </div>
-	<div class="tabingdata"></div>
+	
 
     <squarespace:script src="site-bundle.js" combo="false" />
 
