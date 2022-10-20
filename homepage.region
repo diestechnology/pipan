@@ -218,67 +218,6 @@ img.video-icon {
 				
 		</div>
 		
-		<style>
-/* Create an active/current tablink class */
-.tab button.active {
-    color: #AE9962;
-    border: 0px;
-}
-.tab button{
- border: 0px;
- background-color:unset;
-}
-/* Style the tab content */	
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-}
-.main_box_pipan1 {
-    width: 23%;
-	    text-align: center;
-    margin: auto;
-}
-.main_box_pipan {
-    background-color: #1C1C1C;
-}
-.tab {
-    text-align: center;
-}
-div#London{
-position:relative;
-}
-.main_box_pipan p{
-margin:0px;
-font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: center;
-
-}
-@media only screen 
-  and (min-device-width: 0px) 
-  and (max-device-width: 768px){
-.main_box_pipan1 {
-    width: 100%;
-}
-}
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px){
-.main_box_pipan1 {
-    width: 50%;
-}
-}
-@media only screen 
-  and (min-device-width: 1024px)
- and (max-device-width: 5000px)  {
-.main_box_pipan1 {
-     width: 23%;
-}
-}
-		</style>
 		<!-- Tab content -->
 		
 		<div class="tabingdata"></div>
