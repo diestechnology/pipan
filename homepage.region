@@ -379,6 +379,7 @@ function openCity(evt, cityName) {
       {@|apply footer-new.block}
 
     </div>
+	<div class="tabingdata"></div>
 
     <squarespace:script src="site-bundle.js" combo="false" />
 
@@ -407,5 +408,16 @@ function openCity(evt, cityName) {
 		}
   });
   </script>
+  
+<script>
+$(document).ready(function() {
+	$("button").click(function() {
+		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
+				success: function(result) {
+			$("#h11").html(result);
+		}});
+	});
+});
+</script>
   </body>
 </html>
