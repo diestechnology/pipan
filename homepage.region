@@ -414,7 +414,7 @@ $(document).ready(function() {
 	$("button").click(function() {
 		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
 				success: function(result) {
-			$("#h11").html(result);
+			$(".tabingdata").html(result);
 		}});
 	});
 });
