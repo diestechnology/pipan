@@ -163,6 +163,12 @@
           {.end}{.end}{.end}
 
 		<!-- Tab content -->
+		<div class="product_page_section">
+			<p class="" style="font-size:20px; color:#AE9962; font-family:'Lato', sans-serif !important; letter-spacing: 13px;">SHOP</p>
+			<h1 class="" style="font-size:50px; ">Past releases</h1>
+		</div>
+		
+		
 		<div class="tabingdata"></div>
 
           <main class="{.equal? collection.typeName "index"}Index{.if collection.collections.0}{.or} Index--empty{.end}{.or}Main{.if collection.typeName} Main--{collection.typeName}{.equal? collection.typeName "page"}{.or}{.if item}-item{.or}-list{.end}{.end}{.end}{.end}" {.equal? collection.typeName "index"}data-collection-id="{collection.id}"{.end}{.equal? collection.typeName "index"} data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation"{.end}>
