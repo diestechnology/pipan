@@ -163,7 +163,7 @@
           {.end}{.end}{.end}
 
 		<!-- Tab content -->
-		<div class="product_page_section">
+		<div class="product_page_section main_box_pipan12">
 			<p class="" style="font-size:20px; color:#AE9962; font-family:'Lato', sans-serif !important; letter-spacing: 13px;">SHOP</p>
 			<h1 class="" style="font-size:50px; ">Past releases</h1>
 		</div>
