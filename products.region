@@ -1,4 +1,3 @@
-fsfffffffffffffff
 <!doctype html>
 <html {.if authenticatedAccount}data-authenticated-account{.end}>
   <head>
@@ -112,7 +111,9 @@ fsfffffffffffffff
           </div>
         </div>
       </header>
-
+		<!-- Tab content -->
+		
+		<div class="tabingdata"></div>
       <div class="Site-inner{.equal? collection.typeName "index"} Site-inner--index{.end}"{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "page"}{.background-source-video?} data-controller="HeaderOverlay"{.or}{.section mainImage} data-controller="HeaderOverlay"{.end}{.end}{.end}{.equal? typeName "gallery"} data-controller="HeaderOverlay"{.end}{.end}{.end}{.or}{.if item}{.or}{.section collection}{.background-source-video?} data-controller="HeaderOverlay"{.or}{.section mainImage} data-controller="HeaderOverlay"{.end}{.end}{.end}{.end}{.end}>
 
         <header class="Header Header--bottom{.if item}{.or}{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "page"}{.background-source-video?} Header--overlay{.or}{.section mainImage} Header--overlay{.end}{.end}{.end}{.equal? typeName "gallery"} Header--index-gallery{.end}{.end}{.end}{.or}{.section collection}{.background-source-video?} Header--overlay{.or}{.section mainImage} Header--overlay{.end}{.end}{.end}{.end}{.end}">
@@ -207,6 +208,14 @@ fsfffffffffffffff
 		}
   });
   </script>
+  <script>
+$(document).ready(function() {
+		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
+				success: function(result) {
+			$(".tabingdata").html(result);
+		}});
+});
+</script>
   </body>
 </html>
 
