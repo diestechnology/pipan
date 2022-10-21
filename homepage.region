@@ -302,7 +302,7 @@ img.video-icon {
   </script>
   
 <script>
-jQuery( "<div class="tabingdata"></div>" ).insertBefore( ".Main--products-item" );
+$( "<div class="tabingdata"></div>" ).insertBefore( ".Main--products-item" );
 
 $(document).ready(function() {
 		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
