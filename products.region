@@ -163,7 +163,16 @@
           {.end}{.end}{.end}
 
 		<!-- Tab content -->
-		<section>
+		<style>
+		.product_section {
+    background-color: #1c1c1c;
+}
+		
+		</style>
+		
+		
+		
+		<section class="product_section"> 
 		<div class="product_page_section main_box_pipan12 row">
 			<p class="" style="font-size:20px; color:#AE9962; font-family:'Lato', sans-serif !important; letter-spacing: 13px;">SHOP</p>
 			<h1 class="" style="font-size:50px; ">Past releases</h1>
