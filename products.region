@@ -167,6 +167,153 @@
 		.product_section {
     background-color: #1c1c1c;
 }
+
+.loader-5 {
+	height: 105px;
+	width: 105px;
+	-webkit-animation: loader-5-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-1 {
+	0%   { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes loader-5-1 {
+	0%   { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.loader-5::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: auto;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-2 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(24px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-2 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(24px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader-5::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: auto;
+	bottom: 0; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-3 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(-24px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-3 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(-24px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader-5 span {
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	height: 105px;
+	width: 105px;
+}
+.loader-5 span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: auto; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-4 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(0, 24px, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-4 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(0, 24px, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader-5 span::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: auto; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-5 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(0, -24px, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-5 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(0, -24px, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+
+
+div.Feedback_AjaxWait {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    z-index: 10000;
+    zoom: 1;
+       background-color: #000000db !important;
+    padding-left: 0px !important;
+	}
 		
 		</style>
 		
@@ -179,6 +326,10 @@
 		</div>
 		</section>
 		
+		   <div id="divWait" class="Feedback_AjaxWait" align="center" style="display: none;">
+			 <div class="loader-5 center"><span></span></div>
+			</div>
+
 		<div class="tabingdata"></div>
 
           <main class="{.equal? collection.typeName "index"}Index{.if collection.collections.0}{.or} Index--empty{.end}{.or}Main{.if collection.typeName} Main--{collection.typeName}{.equal? collection.typeName "page"}{.or}{.if item}-item{.or}-list{.end}{.end}{.end}{.end}" {.equal? collection.typeName "index"}data-collection-id="{collection.id}"{.end}{.equal? collection.typeName "index"} data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation"{.end}>
