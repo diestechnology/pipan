@@ -320,7 +320,7 @@ div.Feedback_AjaxWait {
     padding-left: 0px !important;
 	}
 		.main_loder_img{
-			width:70%;
+			width:5%;
 		}
 		</style>
 		
