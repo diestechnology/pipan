@@ -210,7 +210,7 @@ img.video-icon {
         </header>
 		<div class="hiddenclassmax">
 			<video autoplay="true" loop="true" muted="true" control="false">
-				<source src="https://video.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/61078515-5d93-4bb5-86bc-96ef5974c12d/mp4-h264-1920:1080" type="video/mp4" />
+				<source src="https://website4you.co.in/api/sunset-in-the-winery.mp4" type="video/mp4" />
 			</video>
 			<h1 class="video_title">OBSESSED WITH NEBBIOLO</h1>
 			<a href="#ourwines">
