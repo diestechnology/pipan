@@ -209,13 +209,13 @@ img.video-icon {
           </div>
         </header>
 		<div class="hiddenclassmax">
-			<!--<video autoplay="true" loop="true" muted="true" control="false">
+			<video autoplay="true" loop="true" muted="true" control="false">
 				<source src="https://website4you.co.in/api/sunset-in-the-winery.mp4" type="video/mp4" />
 			</video>
 			<h1 class="video_title">OBSESSED WITH NEBBIOLO</h1>
 			<a href="#ourwines">
-			<img class="video-icon" src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/d324f1d5-4002-4ae9-b14b-0101f7bc3239/arrow.png?format=100w"></a>-->
-			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/819349942?h=337c7d7048&autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+			<img class="video-icon" src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/d324f1d5-4002-4ae9-b14b-0101f7bc3239/arrow.png?format=100w"></a>
+
 				
 		</div>
 		
