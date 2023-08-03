@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
-    {squarespace-headers}
+    {#  {squarespace-headers}  }
 	<style>
 	ul.tabing_set {
 		display: inline-flex;
@@ -338,7 +338,7 @@ div.Feedback_AjaxWait {
 			</div>
 
 		<div class="tabingdata">
-		<!-- https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/6af5a543-a111-4e42-9c97-0ee4620e67ab/Spinner-1s-200px.gif -->
+		{#  <!-- https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/6af5a543-a111-4e42-9c97-0ee4620e67ab/Spinner-1s-200px.gif -->  }
 		
 		<img class="main_loder_img" src="https://images.squarespace-cdn.com/content/5760a7de356fb0f59a8a23eb/1428af6d-5659-4e43-b0ac-dc6decd8b9f6/rolling.gif?content-type=image%2Fgif"></div>
 
