@@ -338,9 +338,9 @@ div.Feedback_AjaxWait {
 			</div>
 
 		<div class="tabingdata">
-		{#  <!-- https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/6af5a543-a111-4e42-9c97-0ee4620e67ab/Spinner-1s-200px.gif --> content-type=image%2Fgif }
+		{#  <!-- https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/6af5a543-a111-4e42-9c97-0ee4620e67ab/Spinner-1s-200px.gif -->  }
 		
-		<img class="main_loder_img" src="https://images.squarespace-cdn.com/content/5760a7de356fb0f59a8a23eb/1428af6d-5659-4e43-b0ac-dc6decd8b9f6/rolling.gif?"></div>
+		<img class="main_loder_img" src="https://images.squarespace-cdn.com/content/5760a7de356fb0f59a8a23eb/1428af6d-5659-4e43-b0ac-dc6decd8b9f6/rolling.gif?content-type=image%2Fgif"></div>
 
           <main class="{.equal? collection.typeName "index"}Index{.if collection.collections.0}{.or} Index--empty{.end}{.or}Main{.if collection.typeName} Main--{collection.typeName}{.equal? collection.typeName "page"}{.or}{.if item}-item{.or}-list{.end}{.end}{.end}{.end}" {.equal? collection.typeName "index"}data-collection-id="{collection.id}"{.end}{.equal? collection.typeName "index"} data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation"{.end}>
             {.equal? collection.typeName "index"}
