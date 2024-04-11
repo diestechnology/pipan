@@ -323,23 +323,23 @@ div.Feedback_AjaxWait {
 			width:3%;
 		}
 		</style>
-		
-		
-		
-		<section class="product_section"> 
+
+
+
+		<section class="product_section">
 		<div class="product_page_section main_box_pipan12 row">
 			<p class="" style="padding-top:20px; font-size:20px; color:#AE9962; font-family:'Lato', sans-serif !important; letter-spacing: 13px; padding-top: 50px;">SHOP</p>
 			<h1 class="" style="font-size:50px; margin-top: 0px; ">Our Wines</h1>
 		</div>
 		</section>
-		
+
 		   <div id="divWait" class="Feedback_AjaxWait" align="center" style="display: none;">
 			 <div class="loader-5 center"><span></span></div>
 			</div>
 
 		<div class="tabingdata">
 		{#  <!-- https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/6af5a543-a111-4e42-9c97-0ee4620e67ab/Spinner-1s-200px.gif -->  }
-		
+
 		<img class="main_loder_img" src="https://images.squarespace-cdn.com/content/5760a7de356fb0f59a8a23eb/1428af6d-5659-4e43-b0ac-dc6decd8b9f6/rolling.gif?content-type=image%2Fgif"></div>
 
           <main class="{.equal? collection.typeName "index"}Index{.if collection.collections.0}{.or} Index--empty{.end}{.or}Main{.if collection.typeName} Main--{collection.typeName}{.equal? collection.typeName "page"}{.or}{.if item}-item{.or}-list{.end}{.end}{.end}{.end}" {.equal? collection.typeName "index"}data-collection-id="{collection.id}"{.end}{.equal? collection.typeName "index"} data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation"{.end}>
@@ -347,7 +347,7 @@ div.Feedback_AjaxWait {
               {squarespace.main-content}
             {.or}
               <section class="Main-content" data-content-field="main-content">
-			  
+
 			    <div class="tabing">
 				<ul class="tabing_set">
 					<li data-id="1">2017</li>
@@ -362,7 +362,7 @@ div.Feedback_AjaxWait {
 
         </div>
       </div>
-     
+
       {@|apply footer-new.block}
 
     </div>
@@ -388,7 +388,7 @@ div.Feedback_AjaxWait {
   </script>
   <script>
 $(document).ready(function() {
-		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
+		$.ajax({url: "https://websitedesign4you.com/projects/api/squarespace.php",
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
