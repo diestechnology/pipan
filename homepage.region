@@ -80,7 +80,7 @@ img.video-icon {
 
 </style>
   </head>
-  
+
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} sqs-has-custom-cart{.if website.logoImageUrl} has-logo-image{.or} has-site-title{.end}{.if website.siteTagLine} has-tagline{.end}{.if website.socialAccounts.0} has-social{.end}{.if showCart} has-cart{.end}{.if item}{.or}{.equal? collection.typeName "index"}{.section collection}{.repeated section collections}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.or}{.section collection}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.end} enable-load-effects<squarespace:navigation navigationId="mainNavigation">{.if items.0} has-primary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="secondaryNavigation">{.if items.0} has-secondary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="footerMainNavigation">{.if items.0} has-footer-nav{.end}</squarespace:navigation>{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "gallery"} has-index-gallery-first{.end}{.end}{.end}{.end}{.if userAccountsContext.showSignInLink} has-user-accounts{.end}" data-controller="HashManager, SiteLoader, MobileClassname">
     <div class="Loader"></div>
 
@@ -210,17 +210,17 @@ img.video-icon {
         </header>
 		<div class="hiddenclassmax">
 			<video autoplay="true" loop="true" muted="true" control="false">
-				<source src="https://website4you.co.in/api/sunset-in-the-winery.mp4" type="video/mp4" />
+				<source src="http://bh-1.whb.tempwebhost.net/~website4youco/api/sunset-in-the-winery.mp4" type="video/mp4" />
 			</video>
 			<h1 class="video_title">OBSESSED WITH NEBBIOLO</h1>
 			<a href="#ourwines">
 			<img class="video-icon" src="https://images.squarespace-cdn.com/content/v1/5760a7de356fb0f59a8a23eb/d324f1d5-4002-4ae9-b14b-0101f7bc3239/arrow.png?format=100w"></a>
 
-				
+
 		</div>
-		
+
 		<!-- Tab content -->
-		
+
 		<div class="tabingdata"></div>
 
 
@@ -272,24 +272,24 @@ img.video-icon {
       {@|apply footer-new.block}
 
     </div>
-	
+
 
     <squarespace:script src="site-bundle.js" combo="false" />
 
     {squarespace-footers}
-	
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
    $('div#block-yui_3_17_2_1_1663072836916_4086').hide();
-   $('div#block-yui_3_17_2_1_1663072836916_15280').hide();	
-  
+   $('div#block-yui_3_17_2_1_1663072836916_15280').hide();
+
    $(".demotab li").click(function(){
 		$('.demotab li').removeClass("active");
 		$(this).addClass("active");
 		let active = $(this).data('id');
 		$('div#block-yui_3_17_2_1_1662978460680_2946').hide();
 		$('div#block-yui_3_17_2_1_1663072836916_4086').hide();
-		$('div#block-yui_3_17_2_1_1663072836916_15280').hide();	
+		$('div#block-yui_3_17_2_1_1663072836916_15280').hide();
 		if(active == 1){
 			$('div#block-yui_3_17_2_1_1662978460680_2946').show();
 		}
@@ -301,11 +301,11 @@ img.video-icon {
 		}
   });
   </script>
-  
+
 <script>
 
 $(document).ready(function() {
-		$.ajax({url: "https://website4you.co.in/api/squarespace.php", 
+		$.ajax({url: "https://website4you.co.in/api/squarespace.php",
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
