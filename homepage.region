@@ -219,7 +219,7 @@ img.video-icon {
 
 		</div>
 
-		<!-- Tab content autoplay="true" loop="true" muted="true" control="false" -->
+		<!-- Tab content autoplay="true" loop="true" muted="true" control="false"  https://website4you.co.in/api/squarespace.php -->
 
 		<div class="tabingdata"></div>
 
@@ -305,7 +305,7 @@ img.video-icon {
 <script>
 
 $(document).ready(function() {
-		$.ajax({url: "https://website4you.co.in/api/squarespace.php",
+		$.ajax({url: "https://websitedesign4you.com/projects/api/squarespace.php",
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
