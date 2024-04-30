@@ -390,6 +390,9 @@ div.Feedback_AjaxWait {
 $(document).ready(function() {
 		$.ajax({url: "https://websitedesign4you.com/projects/api/squarespace.php",
 				success: function(result) {
+
+          console.log('test msg');
+          console.log(result);
 			$(".tabingdata").html(result);
 		}});
 });
