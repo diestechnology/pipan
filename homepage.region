@@ -313,11 +313,6 @@ $(document).ready(function() {
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
-  setInterval(function() {
-    if ($(".content__emailStep .content__formFields div").length > 0) {
-        $(".content__emailStep .content__formFields div").css("position", "unset");
-    }
-}, 1000);
 });
 </script>
   </body>
