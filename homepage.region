@@ -314,7 +314,7 @@ $(document).ready(function() {
 			$(".tabingdata").html(result);
 		}});
 setInterval(function() {
-    $('.content__formFields div').css('position', 'unset').css('left', 'unset').css('position', 'unset !important');
+    $('.content__emailStep .content__formFields div').css('position', 'unset').css('left', 'unset').css('position', 'unset !important');
 }, 1000);
 });
 </script>
