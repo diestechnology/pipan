@@ -313,6 +313,9 @@ $(document).ready(function() {
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
+    setInterval(function() {
+    $('.content__formFields div[style*="position:absolute;left:-5000px;"]').removeAttr('style');
+}, 1000);
 });
 </script>
   </body>
