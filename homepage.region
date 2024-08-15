@@ -313,10 +313,8 @@ $(document).ready(function() {
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
-     alert('start');
-    setInterval(function() {
-    $('.content__emailStep .content__formFields div[style*="position:absolute;left:-5000px;"]').removeAttr('style');
-    alert('finish');
+setInterval(function() {
+    $('.content__formFields div').css('position', 'unset').css('left', 'unset').css('position', 'unset !important');
 }, 1000);
 });
 </script>
