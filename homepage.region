@@ -313,9 +313,7 @@ $(document).ready(function() {
 				success: function(result) {
 			$(".tabingdata").html(result);
 		}});
-setInterval(function() {
-    $('.content__emailStep .content__formFields div').css('position', 'unset').css('left', 'unset').css('position', 'unset !important');
-}, 1000);
+$(".content__emailStep .content__formFields div").css("position", "unset");
 });
 </script>
   </body>
